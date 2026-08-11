@@ -84,7 +84,7 @@ export default function Footer() {
                     {/* Bottom bar */}
                     <div className="flex flex-col sm:flex-row items-center justify-between gap-3 py-6">
                         <p className="text-xs text-gray-500 text-center sm:text-left">
-                            © 2026 AnonymtNorskNr.com • All rights reserved
+                            © 2026 AnonymtNorskNr.com • All rights reserved <span className='text-blue-600'>Develop By Z_MBFM</span>
                         </p>
                         <p className="text-xs text-gray-500 flex items-center gap-1.5">
                             <ShieldCheck size={14} className="text-primary" />
