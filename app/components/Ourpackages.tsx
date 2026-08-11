@@ -119,7 +119,7 @@ export default function Packages() {
                                 <div className="relative rounded-b-3xl overflow-hidden mt-auto">
                                     <WaveCap colorClass={pkg.accent} />
                                     <a
-                                        href="https://anonymtnorsknr.no/ordrer"
+                                        href="#contact"
                                         className={`-mt-px flex items-center justify-center py-5 text-sm font-bold uppercase tracking-wide text-white ${pkg.accentBg} transition-opacity duration-200`}
                                     >
                                         Buy Now
