@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background Image - animated Ken Burns zoom/pan */}
       <div className="absolute inset-0 ">
         <Image
-          src="/c4e5f3ff-5d05-4d1d-ad99-10f3516ab455.png"
+          src="https://res.cloudinary.com/nerob/image/upload/v1786471476/c4e5f3ff-5d05-4d1d-ad99-10f3516ab455_dxrs2x.png"
           alt="AnonymtNorskNr"
           fill
           priority
