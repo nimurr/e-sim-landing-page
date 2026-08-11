@@ -5,6 +5,7 @@ import Ourpackages from "./components/Ourpackages";
 import HowItWorks from "./components/HowItWorks";
 import Payment from "./components/Payment";
 import ContactUs from "./components/ContactUs";
+import MakeOrder from "./components/MakeOrder";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HowItWorks />
       <Payment />
       <ContactUs />
+      {/* <MakeOrder /> */}
     </div>
   );
 }

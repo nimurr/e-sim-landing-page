@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mail, Globe, MessageCircleMore, ShieldCheck } from 'lucide-react'
+import { Mail, Globe, MessageCircleMore, ShieldCheck, User2, Key } from 'lucide-react'
 
 const contactMethods = [
   {
@@ -17,12 +17,13 @@ const contactMethods = [
     borderColor: 'bg-[#ff8904]',
   },
   {
-    icon: MessageCircleMore,
-    label: 'Order status',
-    value: 'Track your order',
+    icon: Key ,
+    label: ' Session Key:  ',
+    value: 'Signal User Name: ',
     href: '#contact',
-    borderColor: 'bg-sky-400',
+    borderColor: 'bg-red-400',
   },
+
 ]
 
 export default function Contact() {
@@ -34,7 +35,7 @@ export default function Contact() {
       {/* Decorative glow */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[36rem] h-[36rem] rounded-full bg-primary/10 blur-3xl" />
 
-      <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div
           data-aos="fade-up"
@@ -54,7 +55,7 @@ export default function Contact() {
         </div>
 
         {/* Contact method cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3 justify-center gap-5">
           {contactMethods.map((method, index) => {
             const Icon = method.icon
             return (

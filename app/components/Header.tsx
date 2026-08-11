@@ -132,7 +132,7 @@ export default function Header() {
         {/* CTA Button */}
         <div className="hidden md:block">
           <a
-            href="#contact"
+            href="#make-order"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90 transition-opacity duration-200"
           >
@@ -176,8 +176,7 @@ export default function Header() {
                 )
               })}
             <a
-              href="#contact"
-              target="_blank"
+              href="#make-order" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90 transition-opacity duration-200"
             >
