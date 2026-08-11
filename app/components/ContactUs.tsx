@@ -19,7 +19,7 @@ const contactMethods = [
   {
     icon: Key ,
     label: ' Session Key:  ',
-    value: 'Signal User Name: ',
+    value: 'Signal Username: ',
     href: '#contact',
     borderColor: 'bg-red-400',
   },
@@ -84,15 +84,15 @@ export default function Contact() {
                 />
 
                 {/* Card content */}
-                <div className="relative z-10 flex flex-col items-center text-center gap-3 rounded-[18px] bg-background border border-border px-6 py-8 h-full shadow-[0_4px_24px_rgba(0,0,0,0.2)] transition-all duration-300 group-hover:shadow-[0_8px_32px_rgba(0,0,0,0.35)] group-hover:-translate-y-1">
+                <div className="relative z-10 flex flex-col items-center text-center gap-3 rounded-[18px] bg-background border border-border px-6 py-8 h-full shadow-[0_4px_24px_rgba(0,0,0,0.2)] transition-all duration-300 group-hover:shadow-[0_8px_32px_rgba(0,0,0,0.35)]  ">
                   <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary transition-transform duration-300 group-hover:scale-110">
                     <Icon size={20} strokeWidth={2} />
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-xs font-medium text-muted uppercase tracking-wide">
+                    <span className="text-base font-light text-muted  tracking-wide">
                       {method.label}
                     </span>
-                    <span className="text-sm font-semibold text-foreground break-all">
+                    <span className="text-base font-light text-muted  tracking-wide">
                       {method.value}
                     </span>
                   </div>
