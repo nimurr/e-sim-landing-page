@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { Globe, Mail, ShieldCheck } from 'lucide-react'
 import Link from 'next/link'
@@ -23,9 +24,9 @@ export default function Footer() {
                             <Link
                                 href="/"
                                 className={`font-bold tracking-tight transition-all duration-300 `}
-                            >
+                            >   
                                 <Image
-                                    src="/header_logo-removebg-preview.png"
+                                    src="https://res.cloudinary.com/nerob/image/upload/v1786471476/header_logo-removebg-preview_pwxnm0.png"
                                     alt="AnonymtNorskNr"
                                     width={150}
                                     height={100}
@@ -84,7 +85,7 @@ export default function Footer() {
                     {/* Bottom bar */}
                     <div className="flex flex-col sm:flex-row items-center justify-between gap-3 py-6">
                         <p className="text-xs text-gray-500 text-center sm:text-left">
-                            © 2026 AnonymtNorskNr.com • All rights reserved <span className='text-blue-600'>Develop By Z_MBFM</span>
+                            © 2026 AnonymtNorskNr.com • All rights reserved 
                         </p>
                         <p className="text-xs text-gray-500 flex items-center gap-1.5">
                             <ShieldCheck size={14} className="text-primary" />

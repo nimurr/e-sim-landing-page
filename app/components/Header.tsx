@@ -101,7 +101,7 @@ export default function Header() {
           } text-primary flex items-center gap-2`}
         >
           <Image
-            src="/header_logo-removebg-preview.png"
+            src="https://res.cloudinary.com/nerob/image/upload/v1786471476/header_logo-removebg-preview_pwxnm0.png"
             alt="AnonymtNorskNr"
             width={150}
             height={100}
